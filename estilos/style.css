@@ -45,14 +45,16 @@ section#login{
 section#login > div#imagem{
     display: block;
     background: #5f2c82 url(../imagens/pexels-matthew-montrone-230847-1179229.jpg) no-repeat;
-    height: 200px;
     background-size: cover;
+    height: 200px;
 }
 
-section#logim > div#formulario{
+div#formulario{
     display: block;
     padding: 10px;
 }
+
+
 
 div#formulario > h1{
     text-align: center;
@@ -60,5 +62,56 @@ div#formulario > h1{
 }
 
 div#formulario > p{
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #5f2c82;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form> input[type=submit]:hover{
+    background-color: #2d5857;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    background-color: white;
+    color: #2d5857;
+    border: 1px solid #49a09d;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+form > a.botao:hover{
+    background-color: #62e1dd;
+}
+
+form > a.botao > span{
     font-size: 0.8em;
 }
