@@ -132,10 +132,10 @@ form > a.botao{
     text-decoration: none;
 }
 
-form > a.botao:hover{
+a.botao:hover{
     background-color: #62e1dd;
 }
 
-form > a.botao > span{
+a.botao > span{
     font-size: 0.8em;
 }
